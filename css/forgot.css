@@ -1,0 +1,57 @@
+.forgotpassword{
+    margin: 70px 0 0 0;
+    /* padding: 20px 0; */
+    top: 0; left: 0; right: 0;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .forgotpassword h1{
+    display: block;
+} */
+.forgotpassword form{
+    width: 350px;
+    box-shadow: 0 0 10px var(--box-shadow);
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    margin: auto;
+}
+.forgotpassword form h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: var(--black);
+    padding: 20px;
+}
+.forgotpassword form .icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.forgotpassword form .icons a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.forgotpassword form .box{
+    width: 100%;
+    margin: 7px 0;
+    background: #eee;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: var(--black);
+    text-transform: none;
+}
+.forgotpassword form p{
+    font-size: 1.4rem;
+    padding: .5rem 0;
+    color: var(--light-color);
+}
+.forgotpassword form a{
+    color: var(--black);
+}
+.forgotpassword form a:hover{
+    color: var(--btn-hover);
+    text-decoration: underline;
+}

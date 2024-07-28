@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/fontawesome-6.2.1/css/all.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="image/logo/logosimple.png">
+
+    <title>gaming sector</title>
+</head>
+
+<body>
+    <!-- MENU SECTION -->
+    <header class="header">
+        <a href="index.html" class="logo"><img src="image/logo/logo.png"></a>
+        <nav class="navbar">
+
+            <a class="lienmenu" href="#home">Acceuil</a>
+            <a class="lienmenu" href="#futures">Futures</a>
+            <a class="lienmenu" href="#jeux">Jeux</a>
+            <a class="lienmenu" href="#categories">Categories</a>
+            <a class="lienmenu" href="#demos">Demos</a>
+
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" class="fas fa-search" placeholder="Recherche..." />
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <form action="" class="login-form">
+            <h3>Connection</h3>
+            <input type="email" name="" id="" class="box" placeholder="Votre email" />
+            <input type="password" name="" id="" class="box" placeholder="Votre mot de passe" />
+            <p>Mot de passe oublié, <a href="otherpage/forgotpassword.html">cliquer ici</a></p>
+            <p>Pas de compte, <a href="otherpage/register.html">créer maintenant</a></p>
+            <button type="submit" class="btn">Se Connecter</button>
+        </form>
+    </header>
+    <!-- FIN MENU SECTION -->
+
+    <!-- HOME SECTION -->
+    <!-- <div class="home" id="home">
+        <div class="image">
+            <img src="image/logo/slide.png" alt="">
+        </div>
+    </div> -->
+
+    <div class="home" id="home">
+        <div id="nxtbtn" onclick="previous()"><i class="fas fa-arrow-right"></i></div>
+        <div id="prevbtn" onclick="next()"><i class="fas fa-arrow-left"></i></div>
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content">
+                    <h3> FAR CRY 6</h3>
+                    <p>far cry 6 est un jeux de tire et aventure spécifique .Elle vous fait voyagez a cuba pour retablir
+                        la loi et tuer les trafiqueur de drogue.
+                        ce jeux est disponible sur ps4, ps5 ,pc et xbox . jouable en solo sans connexion ...
+                    </p>
+                    <a href="#" class="btn">Voir plus</a>
+                </div>
+                <div class="image">
+                    <img src="image/personnage/farcry6.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h3> Sonic Frontiers</h3>
+                    <p>Incarne Sonic Et Tente De Déchiffrer Les Mystères Que Cachent Les Ruines D'une Ancienne
+                        Civilisation Prise D'assaut Par Des Hordes Robotiques.
+                        ce jeux est disponible sur ps4 , ps5 , pc et xbox.jouable en solo et multijoueur en ligne ...
+
+                    </p>
+                    <a href="#" class="btn">Voir plus</a>
+                </div>
+                <div class="image">
+                    <img src="image/personnage/sonic.png ">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h3> STAR WARS Jedi: Survivor</h3>
+                    <p>Star Wars Jedi: Survivor Est Un Jeu Vidéo D'action-Aventure Développé Par Respawn Entertainment
+                        Et Édité Par Electronic Arts.! elle nous invite a visiter
+                        la galaxie en resolvant des mission et des mistère inconnus aux fond de la galaxie.
+                        ce jeux est disponible sur ps4 , ps5 , pc et xbox. jouable en solo et multijoueur en ligne ...
+                    </p>
+                    <a href="#" class="btn">Voir plus</a>
+                </div>
+                <div class="image">
+                    <img src="image/personnage/starwars.png">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h3> Biomutant</h3>
+                    <p>Biomutant Est Un Jeu Vidéo De Type Action-RPG Développé Par Le Studio Suédois Experiment 101 Et
+                        Édité Par THQ Nordic.
+                        elle est un jeux de monde ouvert avec des Combat D'arts Martiaux Unique, Mêlant Corps À Corps,
+                        Tir Et Pouvoirs Mutants.
+                        ce jeux est disponible sur ps4 , ps5 , pc et xbox. jouable en solo et multijoueur en ligne ...
+
+                    </p>
+                    <a href="#" class="btn">Voir plus</a>
+                </div>
+                <div class="image">
+                    <img src="image/personnage/bio.png">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- FIN HOME SECTION -->
+
+    <!-- FIN FUTURES SECTION -->
+    <section class="futures" id="futures">
+        <h1 class="heading">Jeux <span>a venir</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/game/jedi.jpg" alt="" />
+                <h3>Star wars jedi </h3>
+                <a href="#" class="btn">Voir</a>
+            </div>
+            <div class="box">
+                <img src="image/game/destiny.jpg" alt="" />
+                <h3>destiny 2</h3>
+                <a href="#" class="btn">Voir</a>
+            </div>
+            <div class="box">
+                <img src="image/game/pro_era.jpeg" alt="" />
+                <h3>Pro era</h3>
+                <a href="#" class="btn">Voir</a>
+            </div>
+            <div class="box">
+                <img src="image/game/tekken.jpg" alt="" />
+                <h3>TEKKEN 7</h3>
+                <a href="#" class="btn">Voir</a>
+            </div>
+            <div class="box">
+                <img src="image/game/wolong.jpeg" alt="" />
+                <h3>Wolong</h3>
+                <a href="#" class="btn">Voir</a>
+            </div>
+            <div class="box">
+                <img src="image/game/sonic.jpg" alt="" />
+                <h3>Sonic frontiers</h3>
+                <a href="#" class="btn">Voir</a>
+            </div>
+        </div>
+    </section>
+    <!-- FIN FUTURES SECTION -->
+
+    <!-- JEUX SECTION -->
+    <section class="jeux" id="jeux">
+        <h1 class="heading">Votre <span>jeux</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <span class="discount"><b>top</b></span>
+                <a href="#" class="image">
+                    <img src="image/game/vanguard.jpg" alt="">
+                </a>
+                <p>Call Of duty vanguard</p>
+                <div class="icons">
+                    <div class="stars">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="fas fa-star"></label>
+                    </div>
+                    <a href="jeuxavenir/codvanguard.html" class="fas fa-download"></a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="#" class="image">
+                    <img src="image/game/gotham.jpg" alt="">
+                </a>
+                <p>Gotham knights</p>
+                <div class="icons">
+                    <div class="stars">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="fas fa-star"></label>
+                    </div>
+                    <a href="jeuxavenir/gotham.html" class="fas fa-download"></a>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount"><b>new</b></span>
+                <a href="#" class="image">
+                    <img src="image/game/biomutant.jpg" alt="">
+                </a>
+                <p>Biomutant</p>
+                <div class="icons">
+                    <div class="stars">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="fas fa-star"></label>
+                    </div>
+                    <a href="jeuxavenir/biiomutant.html" class="fas fa-download"></a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="#" class="image">
+                    <img src="image/game/bob.jpg" alt="">
+                </a>
+                <p>Bob l'éponge</p>
+                <div class="icons">
+                    <div class="stars">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="fas fa-star"></label>
+                    </div>
+                    <a href="jeuxavenir/bobeponge.html" class="fas fa-download"></a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="#" class="image">
+                    <img src="image/game/ufc4.jpg" alt="">
+                </a>
+                <p>Ufc 4</p>
+                <div class="icons">
+                    <div class="stars">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="fas fa-star"></label>
+                    </div>
+                    <a href="jeuxavenir/ufc4.html" class="fas fa-download"></a>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount"><b>top</b></span>
+                <a href="#" class="image">
+                    <img src="image/game/read_dead.jpg" alt="">
+                </a>
+                <p>Red ded reademption II</p>
+                <div class="icons">
+                    <div class="stars">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="fas fa-star"></label>
+                    </div>
+                    <a href="jeuxavenir/reddead.html" class="fas fa-download"></a>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount"><b>new</b></span>
+                <a href="#" class="image">
+                    <img src="image/game/farcry6.jpg" alt="">
+                </a>
+                <p>Farcry 6</p>
+                <div class="icons">
+                    <div class="stars">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="fas fa-star"></label>
+                    </div>
+                    <a href="jeuxavenir/farcry6.html" class="fas fa-download"></a>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount"><b>top</b></span>
+                <a href="#" class="image">
+                    <img src="image/game/fifa23.jpg" alt="">
+                </a>
+                <p>fifa 23</p>
+                <div class="icons">
+                    <div class="stars">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="fas fa-star"></label>
+                    </div>
+                    <a href="jeuxavenir/fifa23.html" class="fas fa-download"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN JEUX SECTION -->
+
+    <!-- CATEGORIES SECTION -->
+    <section class="categories" id="categories">
+        <h1 class="heading">Votre <span>categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/" alt="" />
+                <h3>Action</h3>
+                <a href="#" class="btn">voir</a>
+            </div>
+            <div class="box">
+                <img src="image/" alt="" />
+                <h3>Shoot</h3>
+                <a href="#" class="btn">voir</a>
+            </div>
+            <div class="box">
+                <img src="image/" alt="" />
+                <h3>Sports</h3>
+                <a href="#" class="btn">voir</a>
+            </div>
+            <div class="box">
+                <img src="image/" alt="" />
+                <h3>Pilotage</h3>
+                <a href="#" class="btn">voir</a>
+            </div>
+            <div class="box">
+                <img src="image/" alt="" />
+                <h3>Combat</h3>
+                <a href="#" class="btn">voir</a>
+            </div>
+            <div class="box">
+                <img src="image/" alt="" />
+                <h3>Horreur</h3>
+                <a href="#" class="btn">voir</a>
+            </div>
+            <div class="box">
+                <img src="image/" alt="" />
+                <h3>Music et Danse</h3>
+                <a href="#" class="btn">voir</a>
+            </div>
+            <div class="box">
+                <img src="image/" alt="" />
+                <h3>Enfant</h3>
+                <a href="#" class="btn">voir</a>
+            </div>
+            <div class="box">
+                <img src="image/" alt="" />
+                <h3>RPG</h3>
+                <a href="#" class="btn">voir</a>
+            </div>
+            <div class="box">
+                <img src="image/" alt="" />
+                <h3>Simulation</h3>
+                <a href="#" class="btn">voir</a>
+            </div>
+            <div class="box">
+                <img src="image/" alt="" />
+                <h3>Plateform</h3>
+                <a href="#" class="btn">voir</a>
+            </div>
+            <div class="box">
+                <img src="image/" alt="" />
+                <h3>Multijoueur</h3>
+                <a href="#" class="btn">voir</a>
+            </div>
+        </div>
+    </section>
+    <!-- FIN JEUX SECTION -->
+
+    <!-- DEMOS SECTION -->
+    <section class="demos" id="demos">
+        <h1 class="heading"><span>démos</span></h1>
+        <div class="swiper demos-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/game/demo_dbz.jpg" alt="" />
+                    <p>
+                        Jouez à une partie limitée de DRAGON BALL Z: KAKAROT gratuitement !Vous aurez accès, dans la
+                        démo,
+                        à une partie de l'histoire, des histoires secondaire et des combats de la Saga Saiyen. Seuls
+                        quelques modes sont disponibles: Les ...
+
+                    </p>
+                    <h3>Dragon ball Z </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/game/demo_darkestvil.jpg" alt="" />
+                    <p>
+
+                        Jouez à une partie limitée de Darkestvile gratuitement ! En jouant a ce jeu, vous soutenez aussi
+                        une noble cause d' une partie des recettes permettra d’assujettir l’humanité… je veux netoyer
+                        les océans, créer un sanctuaire pour le
+                        seul ...
+
+                    </p>
+                    <h3>Darkestvile castel</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/game/demo_desperados.jpg" alt="" />
+                    <p>
+                        Desperados III est un jeu d'infiltration tactique hardcore et narratif se déroulant dans un
+                        univer
+                        des West impitoyable. Dans ce prologue très attendu du fameux Desperados: Wanted Dead or Alive,
+                        John Cooper s'alliera avec Kate,...
+                    </p>
+                    <h3>Desperados III</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/game/demo_resident.jpg" alt="" />
+                    <p>
+                        Sorti à l'origine en 1998, Resident Evil 2 est l'un des jeux les plus emblématiques de tout
+                        l'histoire
+                        et qui revient dans une version entièrement pour les consoles nouvelles générations. Jouez aux
+                        campagnes et aux multijoueur local...
+
+
+                    </p>
+                    <h3>Resident evil 2</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/game/demo_dragon_quest.jpeg" alt="" />
+                    <p>
+                        Lancez-vous dans une aventure épique avec l'Éclairé dans un monde qui le traque sans tout
+                        relâcher .L'Éclairé et sa troupe unique de compagnons
+                        devront coopérer pour survivre aux attaques de leurs adversaires et les tuer .
+
+
+                    </p>
+                    <h3>Dragon quest</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/game/spider-man.jpg" alt="" />
+                    <p>
+                        Dans la dernière aventure de l'univers Marvel’s Spider-Man, le jeux fait parties des meilleurs
+                        et se démarques dans son nouveau foyer tout en marchant dans les pas de son mentor, en tant que
+                        nouveau Spider-Man. Mais il protège.
+
+                    </p>
+                    <h3>Spider-man </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/game/axterix.jpg" alt="" />
+                    <p>
+                        Lorsqu’un beau jour, le druide du village, Panoramix, reçoit un étrange courrier. C’est
+                        lettre de Hella Finidrir, la grande prêtresse et belle
+                        de Thulé ! Elle lui annonce qu’une lourde menace pèse sur son peuple et demande d'aide au
+                        druide.
+
+                    </p>
+                    <h3>Axterix XXL3</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- FIN DEMOS SECTION -->
+
+
+    <!-- FOOTER -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="logo"><img src="image/logo/logo.png"></a>
+                <p>Ce site est la version 2.0 mais qui seras à jour à chaque mois
+                </p>
+                <div class="share">
+                    <a href="https://m.facebook.com" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +261 34 22 904 07</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +261 34 22 904 07</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i> andronio@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> Antananarivo - 101, Madagascar</a>
+            </div>
+            <div class="box">
+                <h3>Liens rapide</h3>
+                <a href="index.html" class="links"><i class="fas fa-arrow-right"></i> acceuil</a>
+                <a href="#futures" class="links"><i class="fas fa-arrow-right"></i> futures</a>
+                <a href="#jeux" class="links"><i class="fas fa-arrow-right"></i> jeux</a>
+                <a href="#categories" class="links"><i class="fas fa-arrow-right"></i> catégories</a>
+                <a href="#demos" class="links"><i class="fas fa-arrow-right"></i> démos</a>
+            </div>
+
+            <div class="box">
+                <h3>nouvelle lettre</h3>
+                <p>abonnez-vous pour la derinère mise à jour</p>
+                <input type="email" class="email" placeholder="Votre email" />
+                <button type="submit" class="btn">souscrire</button>
+            </div>
+        </div>
+
+        <div class="credit">Créer par <span> Andronio </span> | Tout droit reservé | Copyright &copy; 2023 </div>
+    </section>
+    <!-- FIN FOOTER -->
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        /* DEBUT SLIDE */
+        let slides = document.querySelectorAll('.slide-container');
+        let index = 0;
+
+        // next function
+        function next() {
+            slides[index].classList.remove('active');
+            index = (index + 1) % slides.length;
+            slides[index].classList.add('active');
+        }
+
+        // previous function
+        function previous() {
+            slides[index].classList.remove('active');
+            index = (index - 1 + slides.length) % slides.length;
+            slides[index].classList.add('active');
+        }
+
+        // autoplay
+        setInterval(next, 7000); // Slide change tous les 7 secondes
+        /* FIN SLIDE*/
+    </script>
+</body>
+
+</html>
